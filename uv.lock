@@ -1,0 +1,22 @@
+version = 1
+requires-python = ">=3.13"
+
+[[package]]
+name = "country-details"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "countrydetails" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "countrydetails", specifier = ">=1.0.8" }]
+
+[[package]]
+name = "countrydetails"
+version = "1.0.8"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/3e/b1/4557d1d6287f66c129db6faabc61b38a809d1b826e3ad97c5d6be16b9383/Countrydetails-1.0.8.tar.gz", hash = "sha256:7fc8b6942180661cf673a5925a8d60b23f4d34a1188df71fddad9619290e6fa5", size = 3240058 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2c/16/662aa4c6012621aecdd00285f871655d01fb97f5acd09beb051e1e4fc4d7/Countrydetails-1.0.8-py3-none-any.whl", hash = "sha256:c1bf9f9a9e071dea06bfb28b85d6e7e20085af4d546863868b0f5ce4575d8975", size = 3530869 },
+]
