@@ -1,6 +1,7 @@
 from Countrydetails import countries
 from Countrydetails import country
 
+
 def main():
     """Entry point. Orchestrates flow of execution.
 
@@ -24,17 +25,10 @@ def main():
     # Country details
     zaf = country.country_details(country_name)
 
-    print(f"\n ZAF name = {zaf.name()}")
+    print(f"\n ZAF name = {zaf.name()}")  # Triggers AttributeError
 
-    # print(f"\n south_africa info = {zaf.info()}")
-
-
+    print(f"\n south_africa info = {zaf.info()}")  # Triggers AttributeError
 
 
-
-
-
-
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
