@@ -7,3 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "countrydetails>=1.0.8",
 ]
+
+[tool.ruff]
+line-length = 100  # Default: 88
+preview = true  # Enable unstable linting and formatting
